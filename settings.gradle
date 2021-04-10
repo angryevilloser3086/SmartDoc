@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        maven { url "https://plugins.gradle.org/m2/" }
+        gradlePluginPortal()
+    }
+}
+include ':places-maps-sdk-3.1.0-beta'
+include ':app_sdk'
+include ':directline-chatbot-sdk'
+include ':app'
+rootProject.name = "SmartDoc"

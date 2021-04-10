@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_clr"
+    tools:context=".PrescriptionActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/space_40dp"
+        android:layout_marginRight="@dimen/space_40dp"
+        app:cardBackgroundColor="@color/white_clr"
+        app:cardCornerRadius="@dimen/space_20dp"
+        app:cardElevation="@dimen/space_5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/space_10dp">
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:text="@string/Prescription"
+                android:textColor="@color/black_clr"
+                android:textSize="@dimen/font_20sp"
+                android:textStyle="bold" />
+-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_20dp"
+                android:lineSpacingExtra="@dimen/space_5dp"
+                android:text="@string/Prescription_Alert"
+                android:textColor="@color/black_clr"
+                android:textSize="@dimen/font_17sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/dialog_logout_cancel_rl"
+                    android:layout_width="@dimen/space_50dp"
+                    android:layout_height="@dimen/space_50dp">
+
+                    <ImageButton
+                        android:id="@+id/prescription_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/todo78"
+                        android:src="@mipmap/icn_cancel" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/dialog_logout_accept_rl"
+                    android:layout_width="@dimen/space_50dp"
+                    android:layout_height="@dimen/space_50dp"
+                    android:layout_marginLeft="@dimen/space_10dp"
+                    android:layout_marginRight="@dimen/space_10dp">
+
+                    <ImageButton
+                        android:id="@+id/prescription_accept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/todo99"
+                        android:src="@mipmap/icn_accept" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

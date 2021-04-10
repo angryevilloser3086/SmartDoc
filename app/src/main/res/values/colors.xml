@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3a85c5</color>
+    <color name="colorPrimaryDark">#2b6496</color>
+    <color name="colorAccent">#3a85c5</color>
+
+    <color name="app_clr">#3a85c5</color>
+    <color name="red_clr">#D3323A</color>
+    <color name="white_clr">#ffffff</color>
+    <color name="black_clr">#000000</color>
+    <color name="grey_clr">#898989</color>
+    <color name="drgrey_clr">#545454</color>
+    <color name="ltgrey_clr">#d7d7d7</color>
+    <color name="lt_grey_clr">#ebecee</color>
+    <color name="transparent">#43000000</color>
+</resources>

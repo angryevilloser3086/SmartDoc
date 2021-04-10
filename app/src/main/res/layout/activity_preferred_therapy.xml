@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_clr"
+    android:clickable="true"
+    android:longClickable="true"
+    android:onClick="@string/Ayurveda"
+    tools:context=".PreferredTherapy"
+    android:focusable="true">
+
+    <ImageButton
+        android:id="@+id/expected_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lt_grey_clr"
+        android:contentDescription="@string/todo667"
+        android:src="@drawable/icn_backblue"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/space_20dp"
+        android:layout_marginStart="32dp"
+        android:gravity="center"
+        android:text="@string/prefered_therapy"
+        android:textColor="@color/black_clr"
+        android:textSize="@dimen/font_30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        app:layout_constraintWidth_percent="1.0" />
+
+    <LinearLayout
+        android:id="@+id/home_one_ll"
+        style="@style/STYLE_CONSTRAINT_PERCENT_TV"
+        android:layout_marginTop="@dimen/space_50dp"
+        android:orientation="horizontal"
+        app:layout_constraintHeight_percent="0.23"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintWidth_percent="1.0"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/home_profile_ll"
+                style="@style/home_ll1">
+
+                <ImageView
+                    android:id="@+id/ayurveda"
+                    style="@style/home_iv"
+                    android:layout_width="200dp"
+                    android:layout_height="162dp"
+                    android:contentDescription="@string/todo525"
+                    android:src="@drawable/ayurveda" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_vehicle_ll"
+                style="@style/home_ll1">
+
+                <ImageView
+                    android:id="@+id/unani"
+                    style="@style/home_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:background="@color/white_clr"
+                    android:clickable="true"
+                    android:contentDescription="@string/todo312"
+                    android:focusable="true"
+                    android:longClickable="true"
+                    android:src="@drawable/unani" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home_two_ll"
+        style="@style/STYLE_CONSTRAINT_PERCENT_TV"
+        android:layout_marginTop="@dimen/space_50dp"
+        android:orientation="horizontal"
+        app:layout_constraintHeight_percent="0.23"
+        app:layout_constraintTop_toBottomOf="@id/home_one_ll"
+        app:layout_constraintWidth_percent="1.0"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/home_address_ll"
+                style="@style/home_ll1">
+
+                <ImageView
+                    android:id="@+id/englishmed"
+                    style="@style/home_iv"
+                    android:layout_width="match_parent"
+                    android:contentDescription="@string/todo21"
+                    android:src="@drawable/englishmedicine" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/home_card_ll"
+                style="@style/home_ll1">
+
+                <ImageView
+                    android:id="@+id/yoga"
+                    style="@style/home_iv"
+                    android:contentDescription="@string/todo55"
+                    android:src="@drawable/yoga" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

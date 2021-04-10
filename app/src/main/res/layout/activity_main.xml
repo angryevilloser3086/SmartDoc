@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_clr"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Home_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/todo525"
+        android:src="@drawable/doctor_main" />
+
+    <Button
+        android:id="@+id/Profile"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Home_img"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="37dp"
+
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="85sp"
+        android:background="@drawable/bg_input"
+        android:text="@string/profile_1"
+        android:textColor="#2196F3"
+        android:textSize="@dimen/font_15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/ChatBot"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Home_img"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginEnd="28dp"
+
+        android:layout_marginBottom="85sp"
+        android:background="@drawable/bg_input"
+        android:text="@string/chat_bot"
+        android:textColor="#00BCD4"
+        android:textSize="@dimen/font_15sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="482dp" />
+</RelativeLayout>

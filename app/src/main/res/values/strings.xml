@@ -1,0 +1,96 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="message_hint">Say anything</string>
+    <string name="app_name" translatable="false">SmartDoc</string>
+    <string name="todo_1" translatable="false">TODO</string>
+    <string name="todo_2">TODO</string>
+    <string name="todo_3">TODO</string>
+    <string name="todo_5">TODO</string>
+    <string name="todo_09">TODO</string>
+    <string name="todo_10">TODO</string>
+    <string name="todo_11">TODO</string>
+    <string name="todo_20">TODO</string>
+    <string name="todo21">TODO</string>
+    <string name="Prescription">Do You Need Prescription</string>
+    <string name="Prescription_Alert">Do You Need Prescription</string>
+    <string name="Details_To_Doctor_Alert">Can We Send The Details To Doctor?</string>
+    <string name="Expected_issue">Expected Issues</string>
+    <string name="intro">Hello There! This is DocBot</string>
+    <string name="chat_bot">Chat Bot</string>
+    <string name="profile">Profile</string>
+    <string name="todo_12">TODO</string>
+    <string name="todo08">TODO</string>
+    <string name="todo78">TODO</string>
+    <string name="todo99">TODO</string>
+    <string name="submit">submit</string>
+    <string name="todo55">todo</string>
+    <string name="profile_1">Profile</string>
+    <string name="string_name" />
+    <string name="todo09">todo09</string>
+    <string name="todo3">todo3</string>
+    <string name="todo1">todo1</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="aadhar_number">Aadhar Number</string>
+    <string name="todo23">TODO</string>
+    <string name="todo123">TODO</string>
+    <string name="send">Send</string>
+    <string name="Enter_message">Enter message</string>
+    <string name="prefered_therapy">Preferred Therapy</string>
+    <string name="todo44">TODO</string>
+    <string name="todo66">TODO</string>
+    <string name="todo_14" tools:ignore="DuplicateDefinition">TODO</string>
+    <string name="todo_23">TODO</string>
+    <string name="todo525">TODO</string>
+    <string name="todo667">TODO</string>
+    <string name="todo312">TODO</string>
+    <string name="todox">TODO</string>
+    <string name="profile_other">profile_other</string>
+    <string name="name">Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="click_here">Click Here</string>
+    <string name="dd_mm_yyyy">dd-mm-yyyy</string>
+    <string name="choose_your_dob">Choose your DOB</string>
+    <string name="d_mm_yyyy">DD-MM-YYYY</string>
+    <string name="expected_issues">Expected Issues</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="thank_you">Thank You</string>
+    <string name="next_1" tools:ignore="DuplicateDefinition">Next</string>
+    <string name="thank_tou">Thank Tou!</string>
+    <string name="thank_you_">Thank You!</string>
+    <string name="back">Back</string>
+    <string name="sorry_for_the_inconvenience_at_this_moment_doctors_aren_t_available_in_this_app_so_we_couldn_t_generate_the_prescription">Sorry for the inconvenience! at this moment, Doctors aren\'t available in this app so, we couldn\'t generate the Prescription.</string>
+    <string name="next">Next</string>
+    <string name="sorry_for_the_inconvenience_at_this_moment_doctors_are_not_available_in_this_app_so_we_could_not_generate_the_prescription">sorry_for_the_inconvenience_at_this_moment_doctors_are not_available_in_this_app_so_we_could not_generate_the_prescription</string>
+    <string name="my_button">My Button!</string>
+    <string name="todo789">TODO</string>
+    <string name="todo567">TODO</string>
+    <string name="error5">Sorry for the inconvenience at this moment doctors are not available in this app so we could not generate the prescription</string>
+    <string name="title_activity_google_map">Map</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="composition" tools:ignore="DuplicateDefinition">Composition</string>
+    <string name="pharmacies_near_by">Pharmacies</string>
+    <string name="settings">Settings</string>
+    <string name="chike_mgbemena">Chike Mgbemena</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_activity_navigation_act">Navigation_act</string>
+    <string name="home">Home</string>
+    <string name="hello_world">Hello world</string>
+    <string name="todo123123">todo3123</string>
+    <string name="Ayurveda">Ayurveda</string>
+    <string name="title_activity_maps_activitypharm">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="locate_pharmacies_nearby">Locate Pharmacies Nearby</string>
+    <string name="maps">Maps</string>
+    <string name="find">Find</string>
+
+</resources>

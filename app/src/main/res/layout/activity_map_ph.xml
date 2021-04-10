@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3DADA"
+    android:backgroundTint="#C5C3C3"
+    android:orientation="horizontal"
+    tools:context=".MapActivity_ph">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4EFEF"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Spinner
+            android:id="@+id/Spinner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:backgroundTint="#B8B3B3"
+            tools:ignore="Suspicious0dp" />
+
+        <Button
+            android:id="@+id/bit_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#D3D1D1"
+            android:backgroundTint="#CDC9C9"
+            android:text="@string/find" />
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/space_60dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="3dp" />
+
+
+</RelativeLayout>

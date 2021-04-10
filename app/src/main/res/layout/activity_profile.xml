@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/EditText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CD4ED"
+    android:backgroundTint="#9CD4ED"
+    android:orientation="vertical"
+    tools:context=".ProfileActivit"
+    tools:ignore="ExtraText">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9CD4ED"
+        android:contentDescription="@string/todo123"
+        app:srcCompat="@drawable/icn_backblue" />
+
+    <TextView
+        android:id="@+id/Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#9CD4ED"
+        android:backgroundTint="#9CD4ED"
+        android:text="@string/profile_1"
+        android:textColor="#070707"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:text="Profile" />
+
+    <EditText
+        android:id="@+id/Edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="#070707"
+        android:textColorHighlight="#1E1919"
+        android:textColorHint="#0C0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/Adhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:digits="0123456789"
+        android:hint="@string/aadhar_number"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="12"
+        android:textColor="#0A0A0B"
+        android:textColorHighlight="#120F0F"
+        android:textColorHint="#070404"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:digits="0123456789"
+        android:hint="@string/phone_number"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="#090909"
+        android:textColorHint="#0B0707"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="LabelFor" />
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:id="@+id/linear"
+            tools:ignore="InvalidId"
+            android:orientation="horizontal"/></LinearLayout>-->
+                <TextView
+                    android:id="@+id/text_view_date_1"
+                    android:layout_width="162dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:hint="@string/d_mm_yyyy"
+                    android:textColor="#0B0404"
+                    android:textColorHighlight="#0E0D0D"
+                    android:textColorHint="#090606"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_picker_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#9CD4ED"
+        android:contentDescription="@string/todo123123"
+        android:src="@drawable/calendar_action"
+        android:text="@string/choose_your_dob" />
+
+    <Button
+        android:id="@+id/Toastbutton"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/submit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Submit" />
+
+
+</LinearLayout>
